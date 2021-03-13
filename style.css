@@ -2,6 +2,7 @@
   --color-primary: #5ec576;
   --color-secondary: #ffcb03;
   --color-tertiary: #ff585f;
+  --color-blue: blue
   --color-primary-darker: #4bbb7d;
   --color-secondary-darker: #ffbb00;
   --color-tertiary-darker: #fd424b;
@@ -288,15 +289,24 @@ h1 {
 .operations__tab--1:hover {
   background-color: var(--color-secondary-darker);
 }
+.operations__tab--2:hover {
+  background-color: var(--color-primary);
+}
 
 .operations__tab--3 {
   background-color: var(--color-tertiary);
-  margin: 0;
 }
 
 .operations__tab--3:hover {
   background-color: var(--color-tertiary-darker);
 }
+.operations__tab--4 {
+  background-color: rgba(60, 60, 253, 0.946)
+}
+.operations__tab--4:hover {
+  background-color: rgb(40, 40, 216)
+}
+
 
 .operations__tab--active {
   transform: translateY(-66%);
@@ -305,7 +315,6 @@ h1 {
 .operations__content {
   display: none;
 
-  /* JUST PRESENTATIONAL */
   font-size: 1.7rem;
   padding: 2.5rem 7rem 6.5rem 7rem;
 }
@@ -349,6 +358,9 @@ h1 {
 }
 .operations__icon--3 {
   background-color: var(--color-tertiary-opacity);
+}
+.operations__icon--4 {
+  background-color: rgba(167, 167, 255, 0.946)
 }
 .operations__icon--1 svg {
   fill: var(--color-secondary-darker);
