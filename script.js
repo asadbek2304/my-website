@@ -261,7 +261,7 @@ const sliders = function () {
   };
 
   btnLeft.addEventListener('click', previousSlide);
-  setInterval(nextSlide, 3000)
+  setInterval(nextSlide, 5000)
   ////////Klaviatura orqali boshqarish
   document.addEventListener('keydown', function (e) {
     if (e.key === 'ArrowLeft') previousSlide();
