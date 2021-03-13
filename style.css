@@ -2,7 +2,6 @@
   --color-primary: #5ec576;
   --color-secondary: #ffcb03;
   --color-tertiary: #ff585f;
-  --color-blue: blue
   --color-primary-darker: #4bbb7d;
   --color-secondary-darker: #ffbb00;
   --color-tertiary-darker: #fd424b;
@@ -376,8 +375,8 @@ h1 {
 
 /* SLIDER */
 .slider {
-  max-width: 90rem;
-  height: 50rem;
+  max-width: 100rem;
+  height: 40rem;
   margin: 0 auto;
   position: relative;
 
@@ -388,7 +387,7 @@ h1 {
   position: absolute;
   top: 0;
   width: 100%;
-  height: 50rem;
+  height: 40rem;
 
   display: flex;
   align-items: center;
@@ -396,8 +395,9 @@ h1 {
 
   transition: transform 1s;
 }
-
-
+.slide .aboutme {
+  width: 80%;
+}
 .slider__btn {
   position: absolute;
   top: 50%;
@@ -479,26 +479,15 @@ h1 {
 }
 
 .aboutme__header {
-  font-size: 2.25rem;
+  font-size: 2.5rem;
   font-weight: 500;
   margin-bottom: 1.5rem;
 }
 
 .aboutme__text {
-  font-size: 1.7rem;
+  font-size: 2rem;
   margin-bottom: 3.5rem;
   color: #666;
-}
-
-.aboutme__name {
-  font-size: 1.7rem;
-  font-weight: 500;
-  align-self: end;
-  margin: 0;
-}
-
-.aboutme__location {
-  font-size: 1.5rem;
 }
 
 .section__title--aboutme {
