@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="shortcut icon" type="image/png" href="img/myLogo.webp" />
+
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <title>MY Web site</title>
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+  <header class="header">
+     <nav class="nav">
+      <h1 class="logo__h1">Logo</h1> 
+      <ul class="nav__links">
+        <li class="nav__item">
+          <a class="nav__link" href="#section--1">portfolio</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#section--2">Skills</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#section--3">Men haqimda</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link nav__link--btn btn--show-modal" href="#">Open account</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="header__title">
+      <h1>
+        <!-- Green highlight effect -->
+        <span class="highlight">Welcome</span>
+        to my personal<br />
+        <span class="highlight">web site</span>
+      </h1>
+      <button class="btn--text btn--scroll-to">Ko'proq &DownArrow;</button>
+
+    </div>
+  </header>
+
+  <section class="section" id="section--1">
+    <div class="section__title">
+      <h2 class="section__description">Portfolio</h2>
+      <h3 class="section__header">
+        Bu sahifa mening loyihalarim haqida
+      </h3>
+    </div>
+
+    <div class="features">
+      <img src="img/digital-lazy.jpg" data-src="img/digital.jpg" alt="Computer" class="features__img lazy-img" />
+      <div class="features__feature">
+        <div class="features__icon">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-monitor"></use>
+          </svg>
+        </div>
+        <h5 class="features__header">Bankist application</h5>
+        <p>
+          Bu loyihada akkauntlar bilan ishlash, yangi html 
+          elementlarini akkaunt ma'lumotlari orqali qo'shish,
+          akkauntlar orasida pul o'tkazmalari amalga oshirish
+          kabi ishlar qilingan. <br>
+          <a class="work__link" href="https://github.com/asadbek2304/bankist-app" target="_blank">Ko'rish &RightArrow;</a>
+        </p>
+      </div>
+
+      <div class="features__feature">
+        <div class="features__icon">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-play"></use>
+          </svg>
+        </div>
+        <h5 class="features__header">O'yin loyihasi</h5>
+        <p>
+          Bu haqiqiy qiziqarli loyiha. Ajoyib multi o'yinchili o'yin <br>
+          <a class="work__link" href="https://github.com/asadbek2304/game-project" target="_blank">Ko'rish &RightArrow;</a>
+        </p>
+      </div>
+      <img src="img/game-lazy.png" data-src="img/game.png" alt="Plant" class="features__img lazy-img" />
+
+      <img src="img/bmi-lazy.png" data-src="img/bmi.png" alt="Credit card" class="features__img lazy-img" />
+      <div class="features__feature">
+        <div class="features__icon">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-user"></use>
+          </svg>
+        </div>
+        <h5 class="features__header">BMI calculator</h5>
+        <p>
+          Real hoyotda ishlatiladigan BMI(body mass index)ingizni
+          aniqlashda ko'maklashadigan dastur<br>
+          <a class="work__link" href="https://github.com/asadbek2304/Bmi-calculator" target="_blank">Ko'rish &RightArrow;</a>
+        </p>
+      </div>
+
+      <div class="features__feature">
+        <div class="features__icon">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-map"></use>
+          </svg>
+        </div>
+        <h5 class="features__header">Map app</h5>
+        <p>
+          Udemy kursida o'rganganlarim orqali tayyorlangan<br>
+          eng yaxshi loyihalardan biri <br>
+          <a class="work__link" href="https://github.com/asadbek2304/Map-app" target="_blank">Ko'rish &RightArrow;</a>
+        </p>
+      </div>
+      <img src="img/map-lazy.png" data-src="img/map.png" alt="Credit card" class="features__img lazy-img" />
+    </div>
+  </section>
+
+  <section class="section" id="section--2">
+    <div class="section__title">
+      <h2 class="section__description">Resume</h2>
+      <h3 class="section__header">
+        Men biladigan va men o'rganayotgan texnologiyalar haqida
+      </h3>
+    </div>
+
+    <div class="operations">
+      <div class="operations__tab-container">
+        <button class="btn operations__tab operations__tab--1 operations__tab--active" data-tab="1">
+          <span>01</span>Html
+        </button>
+        <button class="btn operations__tab operations__tab--2" data-tab="2">
+          <span>02</span>Css
+        </button>
+        <button class="btn operations__tab operations__tab--3" data-tab="3">
+          <span>03</span>Java script
+        </button>
+      </div>
+      <div class="operations__content operations__content--1 operations__content--active">
+        <div class="operations__icon operations__icon--1">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-file-text"></use>
+          </svg>
+        </div>
+        <h5 class="operations__header">
+          Hyper text markup language
+        </h5>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </p>
+      </div>
+
+      <div class="operations__content operations__content--2">
+        <div class="operations__icon operations__icon--2">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-home"></use>
+          </svg>
+        </div>
+        <h5 class="operations__header">
+          Cascading style sheets
+        </h5>
+        <p>
+          Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+          cupidatat non proident, sunt in culpa qui officia deserunt mollit
+          anim id est laborum.
+        </p>
+      </div>
+      <div class="operations__content operations__content--3">
+        <div class="operations__icon operations__icon--3">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-command"></use>
+          </svg>
+        </div>
+        <h5 class="operations__header">
+          Universal dasturlash tili
+        </h5>
+        <p>
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+          officia deserunt mollit anim id est laborum. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+          ea commodo consequat.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="section--3">
+    <div class="section__title section__title--testimonials">
+      <h2 class="section__description">Men haqimda</h2>
+      <h3 class="section__header">
+        Men haqimdagi ba'zi ma'lumotlar 
+      </h3>
+    </div>
+
+    <div class="slider">
+      <div class="slide slide--1">
+        <div class="aboutme">
+          <h5 class="aboutme__header">Asosiy</h5>
+          <blockquote class="aboutme__text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Accusantium quas quisquam non? Quas voluptate nulla minima
+            deleniti optio ullam nesciunt, numquam corporis et asperiores
+            laboriosam sunt, praesentium suscipit blanditiis. Necessitatibus
+            id alias reiciendis, perferendis facere pariatur dolore veniam
+            autem esse non voluptatem saepe provident nihil molestiae.
+          </blockquote>
+        </div>
+      </div>
+
+      <div class="slide slide--2">
+        <div class="aboutme">
+          <h5 class="aboutme__header">
+            Ta'lim
+          </h5>
+          <blockquote class="aboutme__text">
+            Quisquam itaque deserunt ullam, quia ea repellendus provident,
+            ducimus neque ipsam modi voluptatibus doloremque, corrupti
+            laborum. Incidunt numquam perferendis veritatis neque repellendus.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo
+            deserunt exercitationem deleniti.
+          </blockquote>
+        </div>
+      </div>
+
+      <div class="slide slide--3">
+        <div class="aboutme">
+          <h5 class="aboutme__header">
+            Qiziqishlarim
+          </h5>
+          <blockquote class="aboutme__text">
+            Debitis, nihil sit minus suscipit magni aperiam vel tenetur
+            incidunt commodi architecto numquam omnis nulla autem,
+            necessitatibus blanditiis modi similique quidem. Odio aliquam
+            culpa dicta beatae quod maiores ipsa minus consequatur error sunt,
+            deleniti saepe aliquid quos inventore sequi. Necessitatibus id
+            alias reiciendis, perferendis facere.
+          </blockquote>
+        </div>
+      </div>
+
+      <!-- <div class="slide"><img src="img/img-1.jpg" alt="Photo 1" /></div>
+        <div class="slide"><img src="img/img-2.jpg" alt="Photo 2" /></div>
+        <div class="slide"><img src="img/img-3.jpg" alt="Photo 3" /></div>
+        <div class="slide"><img src="img/img-4.jpg" alt="Photo 4" /></div> -->
+      <button class="slider__btn slider__btn--left">&larr;</button>
+      <button class="slider__btn slider__btn--right">&rarr;</button>
+      <div class="dots"></div>
+    </div>
+  </section>
+
+  <section class="section section--sign-up">
+    <div class="section__title">
+      <h3 class="section__header">
+        Bugunoq mening saytimdan ro'yxatdan o'ting va qiziqarli loyihalalarni kuzating
+      </h3>
+    </div>
+    <button class="btn btn--show-modal">Bununoq o'zingizni akkauntingizni yarating</button>
+  </section>
+
+  <footer class="footer">
+    <ul class="footer__nav">
+      <li class="footer__item" style="color: black; font-weight: 700; font-size: 3rem;">Contact: </li>
+      <li class="footer__item">
+        <a class="footer__link" href="https://github.com/asadbek2304">
+        <img src="https://img.icons8.com/fluent-systems-regular/48/000000/github.png"/>
+      </a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="https://t.me/AAA_2304" target="_blank">
+          <img src="https://img.icons8.com/material/48/000000/telegram-app.png"/>
+        </a>
+      </li>
+    </ul>
+  </footer>
+
+  <div class="modal hidden">
+    <button class="btn--close-modal">&times;</button>
+    <h2 class="modal__header">
+      <span class="highlight">5 soniyada</span> o'z akkauntingizni oching 
+    </h2>
+    <form class="modal__form">
+      <label>First Name</label>
+      <input type="text" />
+      <label>Last Name</label>
+      <input type="text" />
+      <label>Email Address</label>
+      <input type="email" />
+      <button class="btn">Davom etish &rarr;</button>
+    </form>
+  </div>
+  <div class="overlay hidden"></div>
+</body>
+
+</html>
